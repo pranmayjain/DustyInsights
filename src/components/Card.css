@@ -1,0 +1,6 @@
+.cardhover {
+    color: #000000;
+}
+.cardhover:hover{
+    color: #EB3535;
+}
