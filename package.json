@@ -16,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "dustyinsights": "npm start",
+    "dev": "concurrently \"cd backend && nodemon index.js\" \"npm run dustyinsights\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20"
   }
 }
